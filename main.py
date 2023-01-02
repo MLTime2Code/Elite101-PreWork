@@ -3,10 +3,8 @@ order = input('Welcome to The Bistro! What would you like to do?\n Check the men
 
 if "Check the menu" in order:
   print("Here are the options")
-else:
-  print("Could you say that again?")
+  
 options = input('Salad, Sandwhich, or Panini ')
-
 
 
 if "Salad" in options:
@@ -22,3 +20,6 @@ order = input('Welcome to The Bistro! What would you like to do?\n Check the men
 
 if "Place an order" in order:
   print("Alright, what would you like to order?")
+
+
+
