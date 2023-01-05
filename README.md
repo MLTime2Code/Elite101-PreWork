@@ -7,4 +7,7 @@ The Chatbox is made using Python.
 This branch will be pushed to the repository as a new branch
 The branch function allows users to create seperate changes without interferring with the main one.
 Once ready, users can merge branches to the main.
-(This is based on from what I can remember)
+
+# How to use the chatbox
+To choose an option, you will have to type the option of your choice exactly as it is written in order to prompt more actions.
+Ex. If you want to check the menu, type Check the menu (like how it is written).
