@@ -7,10 +7,10 @@ if "Check the menu" in order:
   options = input('Salad, Sandwhich, or Panini ')
 
   if "Salad" in options:
-    print("The Salad is a combination of various green vegetables like cabbage and spinach and is sprinkled in cheese. It comes with a side of dressing.")
+    print("Our Salad is a combination of various green vegetables like cabbage and spinach and is sprinkled in cheese. It comes with a side of dressing.")
     
   if "Sandwhich" in options:
-    print("The Sandwhich is made with fresly made bread and contains ham, mayonaise, mustard, cheese, and a special sauce.")
+    print("Our Sandwhich is made with fresly made bread and contains ham, mayonaise, mustard, cheese, lettuce and a special sauce.")
   
   if "Panini" in options:
     print("Our Panini is like a sandwhich but grilled and made with delicious italian bread.")
@@ -20,6 +20,24 @@ else:
 #----------------------------------------------------------
 if "Place an order" in order:
   print("Alright, what would you like to order?")
-
-
-
+  
+  options = input('Salad, Sandwhich, or Panini ')
+  
+  if "Salad" in options:
+    print("A healthy option, it will be ready quickly.")
+    
+  if "Sandwhich" in options:
+    print("Okay, your order will arrive soon!")
+    
+  if "Panini" in options:
+    print("It will take more time to prepare but the wait will be worth it!")
+else:
+  print("Could you repeat that?")
+  print(order)
+#----------------------------------------------------------
+if "Make a reservation" in order:
+  print("At what time and day would you like to reserve?")
+  print("Please write the month, day, and time")
+  month_day = input('What month and day would that be? ')
+  time = input ('At what time? ')
+  print("Fortunately, " + month_day + " at " + time + " will be available. We hope to see you then. " )
