@@ -8,6 +8,7 @@ while order == "Check the menu":
       options = input('Salad, Sandwhich, or Panini ')
       another = input('Would you like to do something else? Yes or No ')
       if "Yes" in another:
+          print("ok, make sure to stop and visit (rerun the console) if you wish to come by again.")
           break
         
       if "No" in another:
@@ -28,6 +29,7 @@ while order == "Place an order":
       options = input('Salad, Sandwhich, or Panini ')
       another = input('Would you like to do something else? Yes or No ')
       if "Yes" in another:
+        print("ok, make sure to stop and visit (rerun the console) if you wish to come by again.")
         break
         
       if "No" in another:
